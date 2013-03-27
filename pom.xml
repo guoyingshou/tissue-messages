@@ -13,18 +13,9 @@
     <artifactId>tissue-messages</artifactId>
     <version>1.0-SNAPSHOT</version>
 
-    <!--
-    <dependencies>
-        <dependency>
-            <groupId>com.tissue</groupId>
-            <artifactId>tissue-coreutils</artifactId>
-            <version>1.0-SNAPSHOT</version>
-        </dependency>
-   </dependencies>
-   -->
-
    <build>
        <plugins>
+           <!--
            <plugin>
                <groupId>org.apache.maven.plugins</groupId>
                <artifactId>maven-compiler-plugin</artifactId>
@@ -33,6 +24,7 @@
                    <target>1.7</target>
                </configuration>
            </plugin>
+           -->
          <plugin>
              <groupId>org.codehaus.mojo</groupId>
              <artifactId>native2ascii-maven-plugin</artifactId>
